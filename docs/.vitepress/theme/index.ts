@@ -59,10 +59,7 @@ const PwaInstallButton = defineComponent({
 
     const onClick = async () => {
       const promptEvent = deferredPrompt.value
-      if (!promptEvent) {
-        window.alert('当前浏览器未触发“安装”事件。\n\n可尝试：\n1) 用 Chrome / Edge 打开（需 https 或 localhost）\n2) 刷新页面后浏览几次（触发用户交互）\n3) 右上角菜单 → “安装此应用/安装到设备”')
-        return
-      }
+      if (!promptEvent) return
 
       await promptEvent.prompt()
       try {
