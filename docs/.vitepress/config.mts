@@ -518,7 +518,7 @@ export default withMermaid(defineConfig({
       manualSortFileNameByPriority: [
         'Basic', 'Advanced', 'Advanced-old', 'Practice', 'Articles',
         'Basic/00-preface', 'Basic/01-awakening', 'Basic/02-mindset', 'Basic/03-technique',
-        'Basic/04-practice-0-to-1', 'Basic/05-advanced', 'Basic/06-learning-paths', 
+        'Basic/04-practice-0-to-1', 'Basic/05-advanced', 'Basic/06-learning-paths',
         'Basic/99-appendix', 'Basic/100-epilogue', 'Basic/101-next-part',
         'Practice/01-for-liberal-arts', 'Practice/02-for-stem', 'Practice/03-for-professionals',
         'Practice/10-core-skills', 'Practice/11-ai-agents', 'Practice/12-fullstack-projects', 'Practice/13-tools-integration',
