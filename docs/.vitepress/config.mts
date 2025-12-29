@@ -460,11 +460,11 @@ export default withMermaid(defineConfig({
         items: [
           { text: '导览', link: '/Advanced/' },
           { text: '第一章：环境搭建', link: '/Advanced/01-environment-setup/' },
-          { text: '第二章：开发工具', link: '/Advanced/02-dev-tools-ai-tuning/' },
-          { text: '第三章：PRD 与文档', link: '/Advanced/03-prd-doc-driven/' },
+          { text: '第二章：开发工具与 AI 调教', link: '/Advanced/02-dev-tools-ai-tuning/' },
+          { text: '第三章：PRD 与文档驱动', link: '/Advanced/03-prd-doc-driven/' },
           { text: '第四章：运行与构建', link: '/Advanced/04-build-and-runtime-modes/' },
           { text: '第五章：UI/UX', link: '/Advanced/05-ui-ux/' },
-          { text: '第六章：环境变量', link: '/Advanced/06-env-vars-secrets/' },
+          { text: '第六章：环境变量与安全', link: '/Advanced/06-env-vars-security/' },
           { text: '第七章：数据库', link: '/Advanced/07-data-persistence-database/' },
           { text: '第八章：测试', link: '/Advanced/08-testing-automation/' },
           { text: '第九章：公网访问', link: '/Advanced/09-localhost-public-access/' },
@@ -472,7 +472,7 @@ export default withMermaid(defineConfig({
           { text: '第十一章：CI/CD', link: '/Advanced/11-serverless-deploy-cicd/' },
           { text: '第十二章：域名与 DNS', link: '/Advanced/12-domain-dns/' },
           { text: '第十三章：云服务器', link: '/Advanced/13-vps-ops-deploy/' },
-          { text: '第十四章：安全与 SEO', link: '/Advanced/14-security-seo-analytics/' },
+          { text: '第十四章：SEO 与数据统计', link: '/Advanced/14-seo-analytics/' },
           { text: '旧进阶篇（完整）', link: '/Advanced-old/' },
         ]
       },

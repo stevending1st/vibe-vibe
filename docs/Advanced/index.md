@@ -28,7 +28,7 @@ title: "进阶篇"
 | 3 | [PRD 与文档驱动开发](/Advanced/03-prd-doc-driven/) | ✅ 序言可阅读 |
 | 4 | [代码运行状态与构建原理](/Advanced/04-build-and-runtime-modes/) | ✅ 序言可阅读 |
 | 5 | [界面（UI）与交互（UX）](/Advanced/05-ui-ux/) | ✅ 序言可阅读 |
-| 6 | [环境变量与敏感信息管理](/Advanced/06-env-vars-secrets/) | ✅ 序言可阅读 |
+| 6 | [环境变量与安全机制](/Advanced/06-env-vars-security/) | ✅ 序言可阅读 |
 | 7 | [数据持久化与数据库](/Advanced/07-data-persistence-database/) | ✅ 序言可阅读 |
 | 8 | [功能测试流程与自动化脚本](/Advanced/08-testing-automation/) | ✅ 序言可阅读 |
 | 9 | [Localhost 与公网访问](/Advanced/09-localhost-public-access/) | ✅ 序言可阅读 |
@@ -36,7 +36,7 @@ title: "进阶篇"
 | 11 | [无服务器部署与 CI/CD 自动化](/Advanced/11-serverless-deploy-cicd/) | ✅ 序言可阅读 |
 | 12 | [域名解析原理与网络接入](/Advanced/12-domain-dns/) | ✅ 序言可阅读 |
 | 13 | [云服务器运维与项目部署](/Advanced/13-vps-ops-deploy/) | ✅ 序言可阅读 |
-| 14 | [安全防护与 SEO 数据统计](/Advanced/14-security-seo-analytics/) | ✅ 序言可阅读 |
+| 14 | [SEO、分享与数据统计](/Advanced/14-seo-analytics/) | ✅ 序言可阅读 |
 
 
 
