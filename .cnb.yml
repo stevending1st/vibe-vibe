@@ -82,12 +82,11 @@ develop:
             mergeCommitMessage: $CNB_LATEST_COMMIT_MESSAGE
             removeSourceBranch: true
             ignoreAssignee: true
-  pull_request.merged:
-    - <<: *docs_deploy_pipeline
-      env:
-        EDGEONE_PROJECT_NAME: vibe-vibe-develop
-      
-      stages:
-        - *docs_build_stage
-        - *edgeone_deploy_stage
+  # pull_request.merged:
+  #   - <<: *docs_deploy_pipeline
+  #     env:
+  #       EDGEONE_PROJECT_NAME: vibe-vibe-develop
+  #     stages:
+  #       - *docs_build_stage
+  #       - *edgeone_deploy_stage
 
