@@ -588,6 +588,4 @@ git pull
 
 - 前置：[2.2 VibeCoding工作流](./02-vibecoding-workflow.md)
 - 详见：[2.3 MCP、插件与 Skills](./03-mcp-skills.md)
-- 详见：[10.10 Skills 团队知识共享](../10-git-collaboration/10-Skills团队知识共享.md)
-- 详见：[10.11 Agent Skills 团队协作](../10-git-collaboration/11-Agent-Skills团队协作.md)
 - 后续：[第三章 PRD与文档驱动](../03-prd-doc-driven/index.md)
