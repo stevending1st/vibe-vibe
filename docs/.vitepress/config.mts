@@ -390,7 +390,7 @@ export default withMermaid(defineConfig({
         manifestFilename: 'manifest.webmanifest',
         includeAssets: ['logo.png', 'logo.svg'],
         devOptions: {
-          enabled: true
+          enabled: false
         },
         workbox: {
           maximumFileSizeToCacheInBytes: 10 * 1024 * 1024
@@ -444,8 +444,8 @@ export default withMermaid(defineConfig({
         items: [
           { text: '导览', link: '/Basic/' },
           { text: '0. 序章', link: '/Basic/00-preface/' },
-          { text: '1. 觉醒：从码农到指挥官', link: '/Basic/01-awakening/' },
-          { text: '2. 心法：核心思维', link: '/Basic/02-mindset/' },
+          { text: '1. 觉醒：为什么现在是编程最好的时代', link: '/Basic/01-awakening/' },
+          { text: '2. 心法：像产品经理一样思考', link: '/Basic/02-mindset/' },
           { text: '3. 技术：从想法到产品', link: '/Basic/03-technique/' },
           { text: '4. 从 0 到 1 实战', link: '/Basic/04-practice-0-to-1/' },
           { text: '5. 精进技能', link: '/Basic/05-advanced/' },
@@ -459,8 +459,8 @@ export default withMermaid(defineConfig({
         text: '进阶篇',
         items: [
           { text: '导览', link: '/Advanced/' },
-          { text: '01-环境搭建与包管理', link: '/Advanced/01-environment-setup/' },
-          { text: '02-工具与AI调教', link: '/Advanced/02-dev-tools-ai-tuning/' },
+          { text: '01-环境搭建与代码运行基础', link: '/Advanced/01-environment-setup/' },
+          { text: '02-AI使用说明书', link: '/Advanced/02-ai-tuning-guide/' },
           { text: '03-PRD与文档驱动', link: '/Advanced/03-prd-doc-driven/' },
           { text: '04-运行与构建', link: '/Advanced/04-build-and-runtime-modes/' },
           { text: '05-界面与交互', link: '/Advanced/05-ui-ux/' },
@@ -522,6 +522,12 @@ export default withMermaid(defineConfig({
         'Basic/00-preface', 'Basic/01-awakening', 'Basic/02-mindset', 'Basic/03-technique',
         'Basic/04-practice-0-to-1', 'Basic/05-advanced', 'Basic/06-learning-paths',
         'Basic/99-appendix', 'Basic/100-epilogue', 'Basic/101-next-part',
+        'Advanced/01-environment-setup', 'Advanced/02-ai-tuning-guide', 'Advanced/03-prd-doc-driven',
+        'Advanced/04-build-and-runtime-modes', 'Advanced/05-ui-ux', 'Advanced/06-env-vars-security',
+        'Advanced/07-data-persistence-database', 'Advanced/08-testing-automation', 'Advanced/09-localhost-public-access',
+        'Advanced/10-git-collaboration', 'Advanced/11-serverless-deploy-cicd', 'Advanced/12-domain-dns',
+        'Advanced/13-vps-ops-deploy', 'Advanced/14-seo-analytics', 'Advanced/15-user-feedback-iteration',
+        'Advanced/99-next-level',
         'Practice/01-for-liberal-arts', 'Practice/02-for-stem', 'Practice/03-for-professionals',
         'Practice/10-core-skills', 'Practice/11-ai-agents', 'Practice/12-fullstack-projects', 'Practice/13-tools-integration',
         'Articles/01-company-blogs', 'Articles/02-podcasts', 'Articles/03-research-reports', 'Articles/04-newsletters', 'Articles/05-communities'
